@@ -1,0 +1,145 @@
+<div class="row">
+	<main class="col-md-12">
+		<br>
+		<article>
+			<header>
+				<h1>
+					HTML Playground
+				</h1>
+			</header>
+		</article>
+		<!--Tables start here-->
+		<section>
+			<header>
+				<h2>Tables</h2>
+			</header>
+			<table border="0">
+				<h3>Fruits</h3>
+				<thead>
+					<tr>
+						<th>Fruit</th>
+						<th>Crushability</th>
+						<th>Time it would take</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Orange</td>
+						<td rowspan="2">Yes</td>
+						<td>Seconds</td>
+					</tr>
+					<tr>
+						<td>Apple</td>
+						<td>Probably a while</td>
+					</tr>
+					<tr>
+						<td>Pineapple</td>
+						<td>No</td>
+						<td>Would take some time</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="3">More fruits later</td>
+					</tr>
+				</tfoot>
+			</table>
+			<table border="0">
+				<h3>Stray Cats</h3>
+				<thead>
+					<tr>
+						<th>Cat Color</th>
+						<th>Name</th>
+						<th>Why</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Orange</td>
+						<td>Garfunkel</td>
+						<td rowspan="2">Sounds dumb</td>
+					</tr>
+					<tr>
+						<td>Black</td>
+						<td>Milo</td>
+					</tr>
+					<tr>
+						<td>Calico</td>
+						<td>Pudding</td>
+						<td>Calico cats are gelatinous</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="3">They're all good cats</td>
+					</tr>
+				</tfoot>
+			</table>
+		</section>
+		<!--Lists start here-->
+		<section>
+			<header>
+				<h2>Lists</h2>
+				<h3>Objects in my room</h3>
+			</header>
+			<ol type="1">
+				<li>Desk</li>
+				<li>Water Bottle</li>
+				<li>Laptop</li>
+				<ul type="square">
+					<li>Keys</li>
+					<li>Screen</li>
+					<li>This Picture</li>
+					<img src="./media/mor_cat.jpg" alt="A stray cat on a chair" style="height: 200px;">
+				</ul>
+				<li>Knife</li>
+				<li>Meat</li>
+			</ol>
+		</section>
+		<!--Images start here-->
+		<section>
+			<header>
+				<h2>Images</h2>
+			</header>
+			<div class="row">
+				<div class="column">
+					<img src="./media/furball_1.jpg" alt="Furball, the dog" style="height: 500px;">
+				</div>
+				<div class="column">
+					<img src="./media/furball_2.jpg" alt="Another photo of furball, the dog" style="height: 500px;">
+				</div>
+				<div class="column">
+					<img src="./media/furball_3.jpg" alt="A stray cat on a chair" style="height: 500px;">
+				</div>
+			</div>
+			<footer>
+				<p>
+					This is my dog Furball.
+				</p>
+			</footer>
+		</section>
+		<!--Audio starts here-->
+		<section>						<header>
+				<h2>Audio</h2>
+			</header>
+			<audio controls>
+				<source src="./media/audiosample.ogg" type="audio/ogg">
+			</audio>
+			<footer>
+				<p>This is a MIDI rendition of Dear Prudence by the Beatles on the Yamaha MU2000.</p>
+			</footer>
+		</section>
+		<!--Video starts here-->
+		<section>
+			<header>
+				<h2>Video</h2>
+			</header>
+			<video controls>
+				<source src="./media/videosample.mp4" type="video/mp4">
+			</video>
+			<footer>
+				<p>This is a short recreation of a Garfield comic strip by Lasagna Cat. Don't mind the other 60 seconds of it.</p>
+			</footer>
+		</section>
+	</main>
+</div>

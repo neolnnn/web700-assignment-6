@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Strike&display=swap');
+
+/* NavBar */
+.bg-light {
+    background-color: #5215EA !important;
+    -webkit-box-shadow: 0px 10px 20px 0px #9975F3;
+    -moz-box-shadow: 0px 10px 20px 0px #9975F3;
+    box-shadow: 0px 10px 20px 0px #9975F3;
+}
+
+/* NavBar Branding */
+.bg-light .navbar-brand {
+    color: white !important;
+    font-family: "Protest Strike";
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+/* NavBar link buttons */
+.nav-item .nav-link {
+    color: white !important;
+    font-family: "Protest Strike";
+}
+
+.nav-item .nav-link:hover {
+    color: #7444EE !important;
+}
+
+/* Body Text */
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-family: "Protest Strike";
+    text-shadow: 2px 2px black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Paragraph */
+p {
+    color: white;
+    font-family: "Open Sans";
+}
+
+/* Page body color */
+body, html {
+    background: #7444EE;
+    background: linear-gradient( to bottom, #7444EE, #BBA4F7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* Anchor */
+a {
+    color: #E5CA4D;
+}
+
+a:hover {
+    color: white
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #5215EA;
+    color: white;
+    font-family: "Open Sans";
+    -webkit-box-shadow: 0px 10px 20px 0px #9975F3;
+    -moz-box-shadow: 0px 10px 20px 0px #9975F3;
+    box-shadow: 0px 10px 20px 0px #9975F3;
+}
+
+.btn-primary:hover {
+    background-color: #7444EE;
+}
+
+/* Legend */
+legend {
+    color: white;
+    font-family: "Protest Strike";
+    text-shadow: 2px 2px black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Labels */
+label {
+    color: white;
+    font-family: "Open Sans";
+}
+
+/* Image shadows */
+img {
+    -webkit-box-shadow: 0px 10px 20px 0px #9975F3;
+    -moz-box-shadow: 0px 10px 20px 0px #9975F3;
+    box-shadow: 0px 10px 20px 0px #9975F3;
+}
+
+/* List objects */
+li {
+    color: white;
+    font-family: "Open Sans";
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    background-color: #9EE5D2;
+    font-family: "Open Sans";
+    width: 100%;
+    -webkit-box-shadow: 0px 10px 20px 0px #9975F3;
+    -moz-box-shadow: 0px 10px 20px 0px #9975F3;
+    box-shadow: 0px 10px 20px 0px #9975F3;
+}
+
+/* Table Rows */
+table tr:nth-child(odd) td {
+    background-image: linear-gradient( to bottom, #40CCA7, #68D7BA);
+}
+
+td {
+    color: white;
+    padding: 8px;
+}
+
+td a {
+    color: white;
+}
+
+/* Table Header */
+th {    
+    background-color: #5215EA;
+    color: white;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Table Footer */
+tfoot {
+    text-align: left;
+    padding: 8px;
+}
